@@ -17,7 +17,7 @@ namespace HangTheMan
             Console.WriteLine("Let's play Hangman! Guess the word below: \n");
 
             Random randomWord = new Random(); //create random variable
-            string[] words = new string[] { "soup", "cake", "milk", "pie" }; //the game dictionary
+            string[] words = new string[] { "soup", "ham", "milk", "pie" }; //the game dictionary
             int wordSelector = randomWord.Next(words.Length); //use the random variable to choose a word from the array
             string selectedWord = words[wordSelector]; //set variable selectedWord to the word chosen from the array
             char[] gameBlanks = new char[selectedWord.Length]; //set number of gameBlanks characters to the length of the 
