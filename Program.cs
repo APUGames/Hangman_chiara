@@ -2,8 +2,8 @@
 using System;
 using System.Xml.Linq;
 
-namespace HangTheMan
-{
+
+
     public class Program
     {
         static void Main(string[] args)
@@ -90,4 +90,3 @@ namespace HangTheMan
             }
         }
     }
-}
